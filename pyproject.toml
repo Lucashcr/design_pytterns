@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "design-pytterns"
+version = "0.1.0"
+description = ""
+authors = ["Lucas Rocha <lucash.rocha@hotmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.taskipy.tasks]
+default_task = "test"
+test = "pytest -vv"
+fmt = "black ."
+
+[tool.pytest.ini_options]
+pythonpath = ["design_pytterns"]
+python_files = ["tests/*"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.3.2"
+black = "^24.8.0"
+taskipy = "^1.13.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
