@@ -39,7 +39,7 @@ Esses padrões lidam com a interação entre objetos e a responsabilidade de sua
 - [ ] **Memento:** Permite capturar e externalizar o estado interno de um objeto sem violar a encapsulação, permitindo que o estado seja restaurado posteriormente.
 - [ ] **Observer:** Define uma dependência um-para-muitos entre objetos, de forma que quando um objeto muda de estado, todos os seus dependentes são notificados e atualizados automaticamente.
 - [ ] **State:** Permite que um objeto altere seu comportamento quando seu estado interno muda. O objeto parecerá ter mudado sua classe.
-- [ ] **Strategy:** Define uma família de algoritmos, encapsula cada um e os torna intercambiáveis. O padrão permite que o algoritmo varie independentemente dos clientes que o utilizam.
+- [x] **Strategy:** Define uma família de algoritmos, encapsula cada um e os torna intercambiáveis. O padrão permite que o algoritmo varie independentemente dos clientes que o utilizam.
 - [ ] **Template Method:** Define o esqueleto de um algoritmo em uma operação, adiando alguns passos para as subclasses.
 - [ ] **Visitor:** Permite que você adicione novas operações a objetos sem modificar as classes desses objetos.
 
